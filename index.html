@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>jQuery HTML5人物介绍卡片特效 - 站长素材</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/material-cards.css">
+<style type="text/css">
+
+	html {
+		position: relative;
+		min-height: 100%;
+	}
+
+	body {
+		background-color: #ECEFF1;
+		color: #37474F;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	h1, h2, h3 {
+		font-weight: 200;
+	}
+	.material-card .mc-btn-action{
+		top: 345px;
+	}
+	.material-card.mc-active .mc-btn-action {
+    top: 300px;
+	}
+	.mc-description{
+	font-size: 13px;
+	}
+
+	body {
+	background-image: url('../img/bg.jpg');
+} 
+
+</style>
+
+</head>
+<body>
+<div class="htmleaf-container">
+<br>
+	<section class="container">
+
+		<div class="row active-with-click">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="material-card Red">
+					<h2>
+						<span>Vue.js 一个渐进式框架</span>
+						<strong>
+							<i class="fa fa-fw fa-star"></i>
+							作者：尤雨溪
+						</strong>
+					</h2>
+					<div class="mc-content">
+						<div class="img-container">
+							<img class="img-responsive" src="img/thumb-christopher-walken.jpg">
+						</div>
+						<div class="mc-description">
+							开始项目选型的时候由于考虑到分布式架构，
+							于是就果断使用vue作为前端给框架。
+							其优点特别明显，第一搭建快。
+							再还有就是vue也是自己学的比较好的框架。
+							个人评价就是yyds。不用不知道，一用爽歪歪。
+							最后感谢尤爸的贡献，互联网有你们会变得更加强大...
+						</div>
+					</div>
+					<a class="mc-btn-action">
+						<i class="fa fa-bars"></i>
+					</a>
+					<div class="mc-footer">
+						<h4>
+							MyClass
+						</h4>
+						<a class="fa fa-fw fa-facebook"></a>
+						<a class="fa fa-fw fa-twitter"></a>
+						<a class="fa fa-fw fa-linkedin"></a>
+						<a class="fa fa-fw fa-google-plus"></a>
+					</div>
+				</article>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="material-card Pink">
+					<h2>
+						<span>SpringBoot 起飞的框架</span>
+						<strong>
+							<i class="fa fa-fw fa-star"></i>
+							作者：Pivotal团队
+						</strong>
+					</h2>
+					<div class="mc-content">
+						<div class="img-container">
+							<img class="img-responsive" src="img/thumb-sean-penn.jpg">
+						</div>
+						<div class="mc-description">
+							起初在使用SSM的时候繁杂的配置让我抓狂，
+							但庆幸的是我学会了怎么使用SpringBoot这像开挂的框架，
+							SpringBoot秉承规则大于配置的理念让我们使用极少的配置就可搭建一个优秀的项目框架。
+							好了这就是我为什么用它来写后台了,使用SpringBoot集成了各种优秀框架，
+							使得我在很短的时间内，就将后台接口开发完成。
+							最后还是有感谢一下，这些阿谀奉承的开发者。
+						</div>
+					</div>
+					<a class="mc-btn-action">
+						<i class="fa fa-bars"></i>
+					</a>
+					<div class="mc-footer">
+						<h4>
+							MyClass
+						</h4>
+						<a class="fa fa-fw fa-facebook"></a>
+						<a class="fa fa-fw fa-twitter"></a>
+						<a class="fa fa-fw fa-linkedin"></a>
+						<a class="fa fa-fw fa-google-plus"></a>
+					</div>
+				</article>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="material-card Purple">
+					<h2>
+						<span>redis和mysql 数据库</span>
+						<strong>
+							<i class="fa fa-fw fa-star"></i>
+							作者:Salvatore AB公司 
+						</strong>
+					</h2>
+					<div class="mc-content">
+						<div class="img-container">
+							<img class="img-responsive" src="img/thumb-clint-eastwood.jpg">
+						</div>
+						<div class="mc-description">
+							为什么要选俩个数据库呢？装逼吗？
+							当然不是让你们知道我只会mysql岂不是很面子，
+							所以肯定不是啊。
+							mysql用来存的的班级信息级图片信息，
+							redis用来做缓存很好，
+							当时是我仅仅使用了redis数据过期自动清除的机制。
+							当然是用来做验证码服务了。用redis做验证码的缓存，
+							生成的验证码一分钟自动过期。简直ok爆了。
+							redis可以用来做数据统计。反正就很nb...
+						</div>
+					</div>
+					<a class="mc-btn-action">
+						<i class="fa fa-bars"></i>
+					</a>
+					<div class="mc-footer">
+						<h4>
+							MyClass
+						</h4>
+						<a class="fa fa-fw fa-facebook"></a>
+						<a class="fa fa-fw fa-twitter"></a>
+						<a class="fa fa-fw fa-linkedin"></a>
+						<a class="fa fa-fw fa-google-plus"></a>
+					</div>
+				</article>
+			</div>
+		<!--</div>-->
+		<!--<div class="row active-with-hover">-->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="material-card Deep-Purple">
+					<h2>
+						<span>Nginx 轻量级的Web服务器</span>
+						<strong>
+							<i class="fa fa-fw fa-star"></i>
+							作者：Igor Sysoev
+						</strong>
+					</h2>
+					<div class="mc-content">
+						<div class="img-container">
+							<img class="img-responsive" src="img/thumb-dustin-hoffman.jpg">
+						</div>
+						<div class="mc-description">
+							同志们我不允许还有人不知道Nginx，
+							它真的很好用啊，哦买噶，
+							用它用它！！！刚开始的时候我都要裂开了，
+							一台服务器只有一个域名，而且DNS解析还被限制。
+							在我正是低迷的时候Nginx出现了，我的妈呀，这是什么神仙服务器。
+							它可以把我从DNS解析的域名精准的打到我的后台项目上。
+							最重要的是它还解决了https请求http的不同源问题。
+							tmd太好用了，真是再生父母啊...
+						</div>
+					</div>
+					<a class="mc-btn-action">
+						<i class="fa fa-bars"></i>
+					</a>
+					<div class="mc-footer">
+						<h4>
+							MyClass
+						</h4>
+						<a class="fa fa-fw fa-facebook"></a>
+						<a class="fa fa-fw fa-twitter"></a>
+						<a class="fa fa-fw fa-linkedin"></a>
+						<a class="fa fa-fw fa-google-plus"></a>
+					</div>
+				</article>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="material-card Indigo">
+					<h2>
+						<span>Swagger 接口可视化框架</span>
+						<strong>
+							<i class="fa fa-fw fa-star"></i>
+							作者：Bootstrap团队
+						</strong>
+					</h2>
+					<div class="mc-content">
+						<div class="img-container">
+							<img class="img-responsive" src="img/thumb-edward-norton.jpg">
+						</div>
+						<div class="mc-description">
+							这个工具想必大家都用过，
+							它可以自动吧你写的接口转换在线成接口文档。
+							正真做到边开发边测试。主要你可以解放双手，
+							妈妈再也不用担心我不会写接口文档了。
+							如果你还在为怎么写接口文档、
+							接口文档耗时耗力而烦恼。来吧我推荐你使用swagger2.
+							解放你的双手你只差一个swagger2...
+						</div>
+					</div>
+					<a class="mc-btn-action">
+						<i class="fa fa-bars"></i>
+					</a>
+					<div class="mc-footer">
+						<h4>
+							MyClass
+						</h4>
+						<a class="fa fa-fw fa-facebook"></a>
+						<a class="fa fa-fw fa-twitter"></a>
+						<a class="fa fa-fw fa-linkedin"></a>
+						<a class="fa fa-fw fa-google-plus"></a>
+					</div>
+				</article>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<article class="material-card Blue">
+					<h2>
+						<span>阿里云 云服务器平台</span>
+						<strong>
+							<i class="fa fa-fw fa-star"></i>
+							作者：阿里巴巴
+						</strong>
+					</h2>
+					<div class="mc-content">
+						<div class="img-container">
+							<img class="img-responsive" src="img/thumb-michael-caine.jpg">
+						</div>
+						<div class="mc-description">
+							实不相瞒阿里云是目前做的最好的云服务器平台。
+							服务器很稳定，服务也很到位。
+							起初没有云服务器的时候所有的项目都跑在本地，
+							属实然我不好装逼。
+							装逼归装逼，没有阿里云想必你也看不到我的项目。
+							云服务器是将来的大势所趋。
+							可以说云服务器的诞生让互联网的发展迈出了一大步。
+							最后感谢在项目中用到的所有技术。有你们的贡献我很幸运，
+							更庆新能成为一名开发者...
+						</div>
+					</div>
+					<a class="mc-btn-action">
+						<i class="fa fa-bars"></i>
+					</a>
+					<div class="mc-footer">
+						<h4>
+							MyClass
+						</h4>
+						<a class="fa fa-fw fa-facebook"></a>
+						<a class="fa fa-fw fa-twitter"></a>
+						<a class="fa fa-fw fa-linkedin"></a>
+						<a class="fa fa-fw fa-google-plus"></a>
+					</div>
+				</article>
+			</div>
+
+
+
+		</div>
+	</section>
+</div>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.material-cards.min.js"></script>
+<script>
+	$(function() {
+		$('.material-card').materialCard({
+			icon_close: 'fa-thumbs-o-up',
+			icon_open: 'fa-chevron-left ',
+			icon_spin: 'fa-spin-fast',
+			card_activator: 'click'
+		});
+
+//        $('.active-with-click .material-card').materialCard();
+
+		window.setTimeout(function() {
+			$('.material-card:eq(1)').materialCard('open');
+		}, 2000);
+
+		$('.material-card').on('shown.material-card show.material-card hide.material-card hidden.material-card', function (event) {
+			console.log(event.type, event.namespace, $(this));
+		});
+
+	});
+</script>
+<script src="js/L2Dwidget.min.js"></script> 
+<script src="js/L2Dwidget.0.min.js"></script> 
+<script>
+	　　L2Dwidget.init({ 
+	
+	　　"model": {jsonPath:"https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json","scale": 1 }, 
+	// 　　"model": {jsonPath:"https://unpkg.com/live2d-widget-model-z16@1.0.5/assets/z16.model.json","scale": 1 }, 
+	// 　　"model": {jsonPath:"https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json","scale": 1 }, 
+	
+	
+	// 其他类型参考  live2dw  下文件夹中的 json 文件名  或者使用下面注释的代码（在谷歌浏览器有跨域问题，跨域使用火狐）
+	
+	// 　　"model": {jsonPath:"./live2dw/live2d-widget-model-chitose/assets/chitose.model.json","scale": 1 }, 
+	　　"display": { "position": "left", "width": 300, "height": 600,"hOffset": 0, "vOffset": -20 }, 
+	　　"mobile": { "show": true, "scale": 1 }, 
+	　　"react": { "opacityDefault": 1, "opacityOnHover": 1 } });
+	</script>
+</div>
+</body>
+</html>
