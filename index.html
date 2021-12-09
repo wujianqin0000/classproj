@@ -14,9 +14,24 @@
 	html {
 		position: relative;
 		min-height: 100%;
+		
+	}
+	@media screen and (max-width:1675px) {
+.htmleaf-container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto 0;
+	top: -80px;
+    transform:scale(0.8, 0.8);
+}
 	}
 
+
 	body {
+		/* overflow-y: hidden; */
+		height: 100%;
+		width: 100%;
 		background-color: #ECEFF1;
 		color: #37474F;
 		font-family: 'Raleway', sans-serif;
@@ -36,9 +51,9 @@
 	.mc-description{
 	font-size: 13px;
 	}
-
 	body {
 	background-image: url('../img/bg.jpg');
+	background-size: 100%;
 } 
 
 </style>
